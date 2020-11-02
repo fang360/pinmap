@@ -159,6 +159,8 @@ function initMap() {
               addbtn.addEventListener("click", () => {
                   pin.setVisible(false);
                   infowindow.close(map,pin);
+                  marker.setVisible(false);
+                  infowindow.close(map,marker);
 
               })
             })
